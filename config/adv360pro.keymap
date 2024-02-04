@@ -28,7 +28,3 @@
 
 /* source the main keymap */
 #include "base.keymap"
-
-/* use urob's layout for Advantage 360 pro */
-/ { chosen { zmk,matrix_transform = &urobs_transform; }; };
-
