@@ -3,7 +3,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / { 
- urobs_transform: keymap_transform_1 {
+ default_transform: keymap_transform_1 {
         compatible = "zmk,matrix-transform";
         columns = <22>;
         rows = <5>;
@@ -19,8 +19,6 @@
         >;
     };
 };
-
-#undef RC
 
 /* map 360's extra keys */
 #define X_LT    &kp EQUAL &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F11     &kp F12 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp MINUS \
@@ -50,4 +48,4 @@
 /* source the main keymap */
 #include "base.keymap"
 
-/ { chosen { zmk,matrix_transform = &urobs_transform; }; };
+/* { chosen { zmk,matrix_transform = &urobs_transform; }; }; */
