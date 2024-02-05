@@ -3,7 +3,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / { 
- default_transform: keymap_transform_1 {
+ urobs_transform: keymap_transform_1 {
         compatible = "zmk,matrix-transform";
         columns = <22>;
         rows = <5>;
@@ -48,4 +48,4 @@
 /* source the main keymap */
 #include "base.keymap"
 
-/* { chosen { zmk,matrix_transform = &urobs_transform; }; }; */
+/ { chosen { zmk,matrix_transform = &urobs_transform; }; }; 
