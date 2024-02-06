@@ -11,11 +11,11 @@
 #define X_LM    &kp ESC
 #define X_RM    &none
 
-#define X_LB    &none
-#define X_MB    &none &none &none       &none &none &none
+#define X_LB    &kp LSHFT
+#define X_MB    &kp LCTRL &none &none       &none &none &none
 #define X_RB    &none
 
-#define X_LH    &none &none &none &kp LEFT &kp RIGHT
+#define X_LH    &none &smart_mouse &none &kp LEFT &kp RIGHT
 #define X_MH    &none &none
 #define X_RH    &kp UP &kp DOWN &none &none &none
 
