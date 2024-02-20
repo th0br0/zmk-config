@@ -12,8 +12,8 @@
 #define X_RM    &none
 
 #define X_LB    &kp LSHFT
-#define X_MB    &kp LCTRL &none &none       &none &none &none
-#define X_RB    &none
+#define X_MB    &kp LCTRL &kp LSHFT &kp LALT       &kp RALT &kp RSHFT &kp RCTRL
+#define X_RB    &kp LSHFT
 
 #define X_LH    &none &smart_mouse &none &kp LEFT &kp RIGHT
 #define X_MH    &none &none
