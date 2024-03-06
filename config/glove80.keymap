@@ -15,9 +15,9 @@
 #define X_MB    &kp LCTRL &kp LSHFT &kp LALT       &kp RALT &kp RSHFT &kp RCTRL
 #define X_RB    &kp LSHFT
 
-#define X_LH    &smart_mouse &kp GRAVE &none &kp LEFT &kp RIGHT
+#define X_LH    &smart_mouse &kp GRAVE &kp BSLH &kp LEFT &kp RIGHT
 #define X_MH    &kp LGUI &kp RGUI
-#define X_RH    &kp UP &kp DOWN &kp LBKT &kp RBKT &kp BSLH
+#define X_RH    &kp UP &kp DOWN &kp LBKT &kp RBKT &kp FSLH
 
 /* activate bluetooth */
 #define CONFIG_WIRELESS 1
